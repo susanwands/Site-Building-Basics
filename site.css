@@ -15,9 +15,12 @@ h1, h2, h3{
 }
 
 
-h1{
-    
+h1{    
     Font-Size: 55px;
+}
+
+h2{
+    margin-bottom: 15px;
 }
 .header {
     height: 200px;
@@ -68,11 +71,15 @@ section{
     content: '\f2e0 ';
     font-family: 'FontAwesome';
 }
+.doc:after{
+    content: '\f15c ';
+    font-family: 'FontAwesome';
+}
 
 #links{
     list-style: none;
     display: flex;    
-    
+    padding-top: 10px;
     justify-content: space-between;
     
 }
