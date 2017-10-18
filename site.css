@@ -1,0 +1,86 @@
+body{
+    Font-Family: 'Frank Ruhl Libre', Sans-Serif;
+    Font-Size: 20px;
+}
+a{
+    color:#ff6542;
+}
+a:hover, a:active{
+    color:#2de1fc;
+}
+
+h1, h2, h3{
+    color:#23395b;
+    Font-Family: 'Raleway', Sans-Serif;
+}
+
+
+h1{
+    
+    Font-Size: 55px;
+}
+.header {
+    height: 200px;
+    padding-top: 50px;
+    width: 100%;
+    margin:0;
+    background: #381d2a;
+    background-image: url("Images/WITA.png");
+    background-size: cover; 
+    background-position: left;
+    position: relative;
+  }
+  
+#title{
+    margin-left:50px;
+    padding-top:200px;
+
+}
+
+.main{
+    padding-top:210px;
+    width:80%;
+    margin-left:50px;
+}
+
+section{
+    margin-bottom:50px;
+}
+
+.theme-list{
+    margin-left:50px;
+}
+
+.theme-item{
+    
+    margin-bottom: 10px;
+}
+
+.linkedin:after{
+    content: '\f08c ';
+    font-family: 'FontAwesome';
+}
+.slack:after{
+    content: '\f198 ';
+    font-family: 'FontAwesome';
+}
+.meetup:after{
+    content: '\f2e0 ';
+    font-family: 'FontAwesome';
+}
+
+#links{
+    list-style: none;
+    display: flex;    
+    
+    justify-content: space-between;
+    
+}
+
+#links li a{
+    font-size: 25px;
+}
+
+footer{
+    text-align: center;
+}

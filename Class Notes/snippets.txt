@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+</head>
+
+<body>
+The content of the document......
+</body>
+
+</html>
+-----------------
+Importing your own links & scripts
+
+<link rel="stylesheet" type="text/css" href="theme.css">
+
+<script>
+
+Importing other links and scripts- order of execution
+-normalize
+-bootstrap
+-jquery
+-other plug-ins
+
+---------------
+jquery document.ready - why? 
+
+$( document ).ready(function() {
+    console.log( "ready!" );
+});
+
+-------------
+So now lets think about the structure of what we are trying to build.
+- What HTML elements best reflect that intent?
+- Semantic tags
+- https://www.w3schools.com/TAGs/
+- HTML5
+- https://css-tricks.com/semantic-class-names/
+- advanced topics https://coderwall.com/p/wixovg/bootstrap-without-all-the-debt
+(HTMLBase)
+
+--------------
+So now that the basic sections and structure are laid out, how do we make this look like something nice?
+
+Let's start with bootstrap.  History, purpose, use vs. don't use, etc.
+
+typograpy: https://www.reliablepsd.com/ultimate-google-font-pairings/
+
+https://designshack.net/articles/business-articles/6-portfolio-design-mistakes-that-drive-me-nuts/
+

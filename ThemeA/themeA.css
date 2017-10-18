@@ -1,0 +1,259 @@
+*{
+    margin:0;
+    padding:0;
+   
+}
+
+footer,
+section{
+  width:80%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 100px;
+}
+
+h2{
+    margin-bottom: 1em;
+}
+
+a:link { 
+	color: #f19a3e;
+	}
+a:visited { 
+	color: #f19a3e;
+    }
+    
+a:hover, a:focus, a:active{
+   color:white;
+}
+
+h1, h2, h3{
+    font-family: 'Raleway', Sans-Serif;
+}
+
+h1{
+    font-size: 54px;
+}
+
+h3{
+    font-style: italic;
+}
+body {
+   margin-right: auto;
+   margin-left: auto;
+   padding-top: 400px;
+   font-family: 'Open Sans', Sans-Serif;
+   font-size: 15px;
+}
+.header {
+  height: 400px;
+  padding-top: 50px;
+  background: #bfcbc2;
+  background-image: url("../Images/pexels-photo2.jpg");
+  background-size: cover; 
+  background-position: center 0;
+  position: relative;
+}
+
+.profile-pic{
+    display: inline-block;
+    position: absolute;
+    top: 25px;
+    bottom: 0;
+    left: 150px;
+    right: 0;
+    height: 50%;
+    width: 50%;  
+    
+}
+
+.profile-pic img{
+    box-shadow: 5px 5px 8px rgba(0,0,0,.4);
+    width: 250px;
+    height: 350px;
+}
+
+#name{
+    display: inline-block;
+    position: absolute;
+    top: 180px;
+    left: 450px;  
+    color: #f19a3e;
+     
+}
+
+.nav,
+.main {
+  position: relative;  
+  margin:0;
+}
+
+.nav {
+  background: #6d696a;
+  height: 60px;
+  z-index: 150;
+  margin-bottom: -80px;
+  box-shadow: 0 2px 3px rgba(0,0,0,.4);
+  text-align: center;
+  padding-left: 30px;
+}
+
+.header,
+.main-nav-scrolled {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.main{
+   background-color: #bfcbc2;
+   padding-top:20px;
+  
+}
+
+
+nav li{
+    display: inline;
+    margin: 5px auto 5px auto;
+    padding: 3px;
+    font-size: 20px;
+    color: #f19a3e;
+}
+
+nav li a{
+    display: inline-block;
+    color: #f19a3e;
+}
+
+.portfolio{
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, .4fr)); 
+}
+
+.portfolio-item{
+    margin: 0;
+    padding: 0;
+    position: relative;    
+}
+
+.portfolio-item img{
+    width:100%;
+    height: auto;
+}
+
+.details{
+ position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #e2dadb;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.portfolio-item:hover .details {
+  opacity: .8;
+}
+
+.portfolio-item:hover{
+     transform: scale(1.05);
+}
+
+.portfolio-item .name{
+   color: black;
+  padding-top: 1em;;
+ }
+
+ .portfolio-item .description{
+    
+ }
+
+ .portfolio-item .project-link{
+    color: #f19a3e;
+ }
+
+ .progress {
+  height:3.5em;
+  width: 80%;
+  background-color: #e2dadb;
+  position: relative;
+  margin-bottom: 1.5em;
+  border-radius: 0;
+}
+.progress:before {
+  content: attr(data-label);
+  font-size: 1.5em;
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
+  top: 10px;
+  left: 0;
+  right: 0;
+}
+.progress .value {
+  background-color: #f19a3e;
+  display: inline-block;
+  height: 100%;
+}
+label{
+    display: none;
+}
+footer{
+    text-align: center;
+    background: #6d696a;
+    width: 100%;
+    padding: 50px;
+}
+
+.linkedin:after{
+    content: '\f08c ';
+    font-family: 'FontAwesome';
+}
+
+.microsoft:after{
+    content: '\f17a ';
+    font-family: 'FontAwesome';
+}
+
+.freelance:after{
+    content: '\f2be ';
+    font-family: 'FontAwesome';
+}
+.resume:after{
+    content: '\f15c ';
+    font-family: 'FontAwesome';
+}
+
+#connect{
+    list-style: none;
+    display: flex;
+    margin-bottom: 100px;
+    width: 80%;
+    text-align: center;
+    justify-content: space-between;
+}
+
+#connect li{
+    background: #6d696a;
+    border: 5px solid #f19a3e;
+    border-radius: 50%;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    padding-top: 70px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,.4);
+    line-height: 0;
+    
+}
+
+#connect li a{
+    font-size: 20px;
+}

@@ -1,0 +1,241 @@
+body{
+    background-color: #dde3e1;
+    Font-Family: 'Source Sans Pro', Sans-Serif;
+    Font-Size: 18px;
+}
+a{
+    color:#381d2a;
+}
+a:hover, a:active{
+    color:#297373;
+}
+h1, h2, h3{
+    Font-Family: 'Playfair Display', Serif;
+    color: #381d2a;
+}
+
+h1{
+    font-size:56px;
+}
+
+.header {
+    height: 500px;
+    padding-top: 50px;
+    background: #381d2a;
+    background-image: url("../Images/street-car3.jpg");
+    background-size: cover; 
+    background-position: bottom;
+    position: relative;
+  }
+
+
+.intro{
+    width: 60%;
+    min-width: 650px;
+    height:400px;
+    background-color: rgba(255,253,253, 0.7);
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.profile-pic{
+    display: inline-block;
+    position: absolute;
+    top: 100px;
+    bottom: 0;
+    left: 50px;
+    right: 0;
+    box-shadow: 0 0 10px white;
+    width: 220px;
+    height: 320px;
+    
+}
+
+.profile-pic img{
+    box-shadow: 5px 5px 8px rgba(255,253,253, 0.7);
+    width: 220px;
+    height: 320px;
+}
+
+#name{
+    display: inline-block;
+    position: absolute;
+    top: 250px;
+    left: 300px;  
+    color: #381d2a;
+     
+}
+
+.nav {
+   
+   background: #dde3e1;
+   height: 50px;
+   z-index: 150;
+   position: fixed;
+   width: 100%;
+   top: 0;
+   
+   text-align: right;
+      
+}
+
+nav li{
+    margin-left: 10px;
+    padding: 3px;
+    font-size: 20px;
+}
+
+nav li a{
+    color: #381d2a;
+}
+
+section{
+   
+   margin-left: 25px;
+   margin-right: 25px;
+   margin-top:50px;
+   padding:50px;
+   background-color: rgba(41,115,115, .4);
+}
+
+#about p{
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+
+section h2{
+    padding-bottom: 20px;
+}
+
+.portfolio{
+   width:90%;
+   margin-left:auto;
+   margin-right:auto;
+  }
+  
+  .portfolio-item{
+      display: inline-block;
+      position: relative;  
+      height:200px;
+      width: 200px;
+      text-align: center;
+      padding: 20px 0 20px 20px;
+      
+  }
+  
+  .portfolio-item img{
+      width: 100%;
+  }
+  
+  .details{
+    background-color: #dde3e1;
+    width: 100%;
+  }
+
+
+  .portfolio-item:hover {
+    -webkit-transform: scale(1.2,1.2);
+    transform: scale(1.2,1.2);
+    z-index: 100;
+   
+  }
+  
+  
+  
+  .portfolio-item .name{
+    font-size: 20px;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 0;
+    
+   }
+  
+   .portfolio-item .description{
+    display: none;
+   }
+  
+   .portfolio-item .project-link{
+    padding-top: 0;
+    
+   }
+
+
+#skills label{
+    display:inline;
+    margin-left:80px;
+
+}
+
+.progress {
+    height:1em;
+    width:90%;
+    margin-left:80px;
+    background-color: #dde3e1;
+    position: relative;
+    margin-bottom: 2.5em;
+    border-radius: 0;
+    box-shadow: 0 0 4px white;
+  }
+  
+  .progress .value {
+    background-color: #381d2a;
+    display: inline-block;
+    height: 100%;
+  }
+  
+  .progress .value:hover{
+      transform: scale(1.02);
+      
+  }
+  .linkedin:after{
+    content: '\f08c ';
+    font-family: 'FontAwesome';
+}
+
+.microsoft:after{
+    content: '\f17a ';
+    font-family: 'FontAwesome';
+}
+
+.freelance:after{
+    content: '\f2be ';
+    font-family: 'FontAwesome';
+}
+.resume:after{
+    content: '\f15c ';
+    font-family: 'FontAwesome';
+}
+
+#connect{
+    list-style: none;
+    display: flex;
+    margin-bottom: 100px;
+    width: 90%;
+    text-align: center;
+    justify-content: space-between;
+    margin-left:50px;
+}
+
+
+#connect li a{
+    font-size: 25px;
+}
+.disclaimer{
+    font-style: italic;
+    font-size: 14px;
+}
+
+footer{
+    margin-top: 50px;
+    padding:50px;
+    text-align: center;
+    background-color: #381d2a;
+    color:#fffdfd;
+
+}
+
+footer a{
+    color:#297373;
+}
