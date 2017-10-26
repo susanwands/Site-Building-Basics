@@ -27,7 +27,7 @@ h2{
     padding-top: 50px;
     width: 100%;
     margin:0;
-    background: #381d2a;
+    background-color:#23395b;
     background-image: url("Images/WITA.png");
     background-size: cover; 
     background-position: left;
@@ -59,6 +59,16 @@ section{
     margin-bottom: 10px;
 }
 
+.session-header{
+    margin-left: 30px;
+    background-color:rgba(45,225,252, .4);
+    padding:30px;
+}
+
+.session-notes{
+    margin-left: 30px;
+    margin-top:15px;
+}
 .linkedin:after{
     content: '\f08c ';
     font-family: 'FontAwesome';
